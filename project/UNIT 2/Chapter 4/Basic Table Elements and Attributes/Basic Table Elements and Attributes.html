@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+	<h1><center>TABLE</center></h1>
+	<h2>Basic Table Elements and Attributes </h2>
+	<ul>
+		<li> Tables display information in rows and columns; they are commonly used to display all manner of data that fits in a grid such as </li>
+			<ol>
+				<li>train schedules </li>
+				<li>television listings</li>
+				<li>financial reportssports results</li>
+			</ol><br>
+		<li> Each cell must be represented by either a   < td >   or a   < th >   element in order for the table to display correctly, even if there is no data in that cell</li><br>
+	    <li> All tables will follow this basic structure, although there are additional elements and attributes that allow you to control the presentation of tables. If a row or column should contain a heading, a   < th >   element should be used in place of the   < td >   element for the cells that contain a heading. By default, most browsers render the content of a   < th >   element in bold text.</li><br>
+	    <li> Basic Table Elements and Attributes </li>
+	    	<ul>
+	    		<li> The  < table >  Element Creates a Table</li>
+	    		<li> The align Attribute (Deprecated).it indicates whether the table should be aligned to the  left  (the default),  right , or center  of the page.</li>
+	    		<li> The bgcolor Attribute (Deprecated) .sets the background color for the table</li>
+	    		<li> The border Attribute (Deprecated).a border will be created around both the table and each individual cell.</li>
+	    		<li>   The cellpadding Attribute (Deprecated) is used to create a gap between the edges of a cell and its contents</li>
+	    		<li>The  cellspacing  attribute is used to create a space between the borders of each cell. </li>
+	    		<li> The  < tr >  Element Contains Table Rows </li>
+	    		<li> The  align  attribute specifies the position of the content of all of the cells in the row.   </li>
+	    		<li> The  < td >  and  < th >  Elements Represent Table Cells</li>
+	    		<li> The  colspan  attribute is used when a cell should span across more than one column.</li>
+	    		<li> The rowspan Attribute specifies the number of rows of the table a cell will span across, the value of the attribute being the number of rows the cell stretches across</li>
+	    	</ul>
+	    		<li>EXAMPLE:
+	    			<pre>
+	    				
+< table border="1" width="60%">
+< caption>1ST YEAR CS TIME TABLE< /caption>
+< tr>
+	< th>DAY ORDER< /th>
+	< th>1st HOUR< /th>
+	< th>2nd HOUR< /th>
+	< th>3rd HOUR< /th>
+	< th rowspan="7" bgcolor="pink">break< /th>
+	< th>4th HOUR< /th>
+	< th>5th HOUR< /th>
+< /tr>
+
+	
+< tr>
+	< th>1stday< /th>
+	< td	bgcolor="66CC00">ENGLISH< /td>
+	< td bgcolor="cyan">TAMIL< /td>
+	< td bgcolor="00CC99">WT(AMH)< /td>
+	< td bgcolor="ccffcc">CO(MRS)< /td>
+	< td bgcolor="CC00FF">WT LAB(AMH)< /td>
+< /tr>
+	
+< tr>
+	< th>2nd day< /th>
+	< td  bgcolor="cyan">TAMIL< /td>
+	< td bgcolor="gold">MATHS< /td>
+	< td bgcolor="ccffcc">CO(MRS)< /td>
+	< td bgcolor="CC00FF">WT LAB(AMH)< /td>
+	< td bgcolor="00CC99">WT(AMH)< /td>
+< /tr>
+< tr>
+	< th>3rd day< /th>
+	< td bgcolor="gold">MATHS< /td>
+	< td bgcolor="CC3300">VE(MRS)< /td>
+	< td bgcolor="cyan">TAMIL< /td>
+	< td bgcolor="00CC99">WT(AMH)< /td>
+	< td bgcolor="ccffcc">CO(MRS)< /td>
+< /tr>
+	
+	< tr>
+	< th>4th day< /th>
+	< td	bgcolor="66CC00">ENGLISH< /td>
+	< td bgcolor="gold">MATHS< /td>
+	< td bgcolor="00CC99">WT(AMH)< /td>
+	< td bgcolor="ccffcc">CO(MRS)< /td>
+	< td bgcolor="CC00FF">WT LAB(AMH)< /td>
+< /tr>
+	
+	< tr>
+	< th>5th day< /th>
+	< td bgcolor="gold">MATHS< /td>
+	< td bgcolor="CC00FF">WT LAB(AMH)< /td>
+	< td bgcolor="cyan">TAMIL< /td>
+	< td bgcolor="00CC99">WT(AMH)< /td>
+	< td bgcolor="ccffcc">C0(MRS)< /td>
+< /tr>
+	
+	< tr>
+	< th>6th day< /th>
+	< td bgcolor="CC3300">VE(MRS)< /td>
+	< td bgcolor="CC00FF">WT LAB(AMH)< /td>
+	< td bgcolor="cyan">TAMIL< /td>
+	< td bgcolor="gold">MATHS< /td>
+	 < td	bgcolor="66CC00">ENGLISH< /td>
+< /tr>	
+< /table>  
+		</pre>
+	    		</li>
+	    		<li> The output of above program is:<br><br>
+	    		<img src="bte.jpg" alt="picture not found"/></li>
+	</ul>
+</body>
+</html>

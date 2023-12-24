@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../common.css">
+    
+</head>
+<body>
+<h1>Creating Labels for Controls and the < label> Element Structuring Your Forms with < fieldset> and < legend> Elements </h1>
+<ul>
+	<li>If you are creating a form for your site, it is worth spending time to provide good labeling so that the user knows what data he or she should be entering where</li>
+	<li> If visitors have difficulty understanding your form, they will be less likely to complete the form (in particular if they are purchasing something), or they are more likely to make a mistake when filling it in. </li>
+	<li>Some form controls, such as buttons, already have labels. For the majority of form controls, however, you will have to provide the label yourself. 
+    </li>
+	<li>EXAMPLE FOR LABEL:
+		<pre>
+	< p>
+	< label for="n">NAME:< /label>
+	< input type="text" name="name" id="n" placeholder="NAME">
+< /p>
+< p>
+	< label for="dob" >DATE OF BIRTH:< /label> 	
+	< input type="date" name="dob" id="dob">< br>< br>
+	< label for="age">AGE:< /label>
+	< input type="number" name="age" placeholder="AGE" min="0" max="100">
+< /p></pre></li>
+	<li>OUTPUT OF THE ABOVE PROGRAM IS</li>:
+	<li><img src="clf.jpg" alt="image is not found"></li>
+</ul>
+	<h1> Structuring Your Forms with  < fieldset >  and 
+ < legend >  Elements </h1>
+	<li>The   < fieldset >   element creates a border around the group of form controls to show that they are related.   </li>
+	<li> The   < legend >   element allows you to specify a caption for the   < fieldset >   element, which acts as a title for the group of form controls. When used, the   < legend >   element should always be the first child of the   < fieldset >   element</li>
+	<li>EXAMPLE FOR FIELDSET:
+		<pre>
+			
+< !DOCTYPE html><
+< tml>
+< head>
+	< style>
+	
+		label{
+			color:red;
+		}
+		input{
+			border-color:red;
+		}
+		fieldset{
+			border-color:black;
+		}
+		legend{
+			text-align:center;
+		}
+		< /style>
+
+< /head>
+< body bgcolor="cyan">
+	< center>
+< form>
+	< fieldset>
+		< legend>APPLICATION FORM< /legend>
+< p>
+< label for="name">NAME:< /label>
+< input type="text" name="name" id="name" placeholder="NAME">
+< /p>
+< p>
+< label for="mail">MAIL:< /label>
+< input type="email" name="mail" id="mail" placeholder="MAIL">
+< /p>
+< p>
+< label for="address">ADDRESS:< /label>
+< input type="text" name="address" id="address" placeholder="ADDRESS">< /p>
+< p>
+< label for="no">NUMBER:< /label>
+< input type="tel" name="number" id="no" placeholder="NUMBER">< /p>
+< p>
+< label for="coo">COURSE:< /label>
+< input type="text" name="COURSE" id="coo" placeholder="COURSE">< /p>
+< p>
+< label for="cn">COLLEGE NAME:< /label>
+< input type="text" name="clg name" id="cn" placeholder="COLLEGE NAME">< /p>
+< /p>
+< p>
+< input type="submit" value="send" >
+< /p>
+< /fieldset>
+< /form>
+< /center>
+< /body>
+< /html>
+		</pre>
+
+	</li>
+	<li>OUTPUT OF THE ABOVE PROGRAM IS:</li>
+	<li><img src="clf2.jpg" alt="image is not found"></li>
+</ul>
+
+
+</body>
+</html>

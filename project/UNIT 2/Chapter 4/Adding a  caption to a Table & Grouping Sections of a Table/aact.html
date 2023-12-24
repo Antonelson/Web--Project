@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+	<h1> Adding a  < caption >  to a Table</h1>
+	<ul>
+		<li> The   < caption >   element appears directly after the opening   < table >   tag; it should come before the first row: </li>
+		<li><code>< table >
+			< caption >  Opening hours for the Example Cafe<  /caption >   
+			 < tr > </code></li>
+		<li> By using a   < caption >   element, rather than just describing the purpose of the table in a previous or subsequent paragraph, you are directly associating the content of the table with this description </li>
+	<li> EXAMPLE:<br>
+		<pre>
+	< table border ="1"width="30%" style="border-collapse:collapse;border-color:red" >
+		< caption>THIS IS EXAMPLE FOR CAPTION< /caption>
+		< tr>
+			< th>1 < /th>
+			< th>2 < /th>
+		< /tr>
+		< tr>
+			< td>3 < /td>
+			< td>4 < /td>
+		< /tr>
+		< tr>
+			< td>5 < /td>
+			< td>6 < /td>
+			< /tr>
+	     < br>
+	 < /table>
+	</pre>
+	</li>
+	<li> The output of above program is:<br><br>
+	    		<img src="caption.jpg" alt="picture not found"/></li>
+	</ul>
+
+
+
+<h1>Grouping Sections of a Table</h1>
+	<ul>
+		<li> Use the  rowspan  and  colspan  attributes to make cells stretch	over more than one row or column   </li>
+		<li> Split a table into three sections: a head, body, and foot  </li>
+		<li> Group columns using the   < colgroup >   element   </li>
+		<li> Share attributes between unrelated columns using the   < col >   elementv</li>
+	<li> EXAMPLE FOR COLSPAN AND ROWSPAN:
+<pre>
+< table border ="1"width="20%" style="border-collapse:collapse;border-color:blue" >
+		< tr>
+			< th rowspan="2">1< /th>
+			< th colspan="3">2< /th>
+		< /tr>
+	 	< tr>
+			< td>3< /td>
+			< td>4< /td>
+		< /tr>
+		< tr>
+			< td>5< /td>
+			< td colspan="2">6< /td>
+			
+			< /tr>
+
+	 < /table>
+</pre>
+	</li>
+	 <li> The output of above program is:<br><br>
+	    		<img src="rowscols.jpg" alt="picture not found"/></li>
+	    		</ul>
+</body>
+</html>	

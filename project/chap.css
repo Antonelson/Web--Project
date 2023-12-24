@@ -1,0 +1,16 @@
+a{
+	color:#007FFF;
+}
+ul{
+	font-weight:bold;
+}
+li{
+	color:#222831;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+}
+b{
+	text-transform: uppercase;
+}

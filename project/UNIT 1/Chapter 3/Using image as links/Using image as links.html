@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../common.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Image as Links</h1>
+    <ul>
+        <li>It ’ s easy to turn an image into a link; rather than putting text between the opening < a > tag and the
+            closing < /a > tag.</li> <br>
+            <li>You can also select a particular shape in image to act as a way to open a link.</li> <br>
+            <li>The value of the shape attribute actually affects how the browser will use the coordinates specified in
+                the coords attribute, and is therefore required. If you do not specify a shape attribute, the default value
+                is a rectangle.</li> <br>
+                <li>values are: rectangle or rect, polygon or poly , circle or circ</li> <br>
+                <li>The coords attribute specifies the area that is the clickable hotspot. The number of coordinates you
+                    specify depends on the shape you are creating.
+                <ul>
+                    <li>A rectangle contains four coordinates. The first two coordinates represent the top left of the
+                        rectangle, and the second two the bottom right.</li> <br>
+                        <li>A circle contains three coordinates; the first two are the center of the circle, while the third is the
+                            radius in pixels. 
+                            </li> <br>
+                            <li> A polygon contains two coordinates for each point of the polygon. So a triangle would contain
+                                six coordinates, a pentagon would contain ten, and so on. You do not need to specify the first
+                                coordinates again at the end because the shape is automatically closed. </li> <br>
+                </ul>
+                </li> <br>
+    </ul>
+</body>
+</html>

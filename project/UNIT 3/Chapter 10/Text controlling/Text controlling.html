@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+ <h1>Text Controlling</h1>
+ <ul>
+    <li>Several properties allow you to control the appearance of text in your documents.</li><br>
+    <li>The font - family property allows you to specify the typeface that should be used for any text inside the
+        element(s) that a CSS rule applies to.</li><br>
+        <li>The font - size property enables you to specify a size for the font.</li><br>
+        <li>Despite all this careful work, rather than finding the bold version of a typeface, browsers tend to use an
+            algorithm that takes the normal version of the font and makes it thicker. Because it uses an algorithm, it
+            means you can also create a lighter version of fonts, too. This is what the font - weight property is for. </li> <br>
+            <li>The font - style property allows you to specify that a font should be normal , italic , or oblique.</li> <br>
+            <li>There are two possible values for the font - variant property: normal and small - caps.</li> <br>
+            <li>the font - stretch property sets
+                the width of the characters in a font.</li> <br>
+                <li>the font - size - adjust property does not have any support in the main
+                    browsers (IE8 and Firefox 3), but its purpose is to allow you to change a font ’ s aspect value, which is the
+                    ratio between the height of a lowercase letter x in the font and the height of the font.</li> <br>
+                    <li>example:
+                        <pre>
+                            < !DOCTYPE html>
+< html>
+< head>
+< style>
+
+
+h1, h2, h3 {
+    font-size: 1.3rem;
+color:white;
+
+}
+
+
+.title {
+    text-align: center;
+}
+
+
+a {
+    color: yellow;
+}
+
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+p {color: gold;
+    line-height: 2;
+}
+< /style>
+< /head>
+< body bgcolor="maroon"> < h1 class="title">My Blog Post< /h1>
+    < p>Welcome to my blog post! In this post, I'll be discussing the importance of controlling text in CSS. < a href="#">Learn more< /a> about how CSS can help improve the readability and design of your website.< /p>
+    < h2>Why is controlling text in CSS important?< /h2>
+    < p>Controlling text in CSS allows you to make your website more visually appealing and easy to read. By setting font styles, sizes, and alignments, you can create a consistent look and feel throughout your site. Additionally, you can use CSS to add special effects to text, such as hover effects on links.< /p>
+  < /body>
+< /html>
+
+< /body>
+
+
+< /html>
+                        </pre>
+                    </li>
+                    <li>output: <br>
+                        <img src="tc.jpg" alt="Image not found" width="600">
+
+                    </li>
+ </ul>
+</body>
+</html>

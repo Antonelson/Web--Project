@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+    <h1>Pseudo Class</h1>
+    <ul>
+        <li>While you are learning about text, there are two pseudo - classes that can help you work with text. These
+            pseudo - classes allow you to render either the first letter or the first line of an element in a different way
+            than the rest of that element.</li> <br>
+            <li>The first - line pseudo - class should allow you to render the first line of any paragraph differently
+                from the rest of the paragraph. Commonly this might be in a bold font so that the reader can clearly see
+                an introduction (for articles) or the first line (for poems). </li> <br>
+                <li> The first - letter pseudo - class allows you to specify a rule just for the first letter of an element. This is
+                    most commonly used on the first character of a new page, either in some magazine articles or in books. </li> <br>
+                    <li>Example: <br>
+                        <pre>
+< !DOCTYPE html>
+< html>
+< head>
+< style>
+nav a {
+    font-size: 1.2em;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+
+nav a:hover {
+    background-color: #f2f2f2;
+    color: #006699;
+}
+
+
+nav a.active {
+    background-color: #006699;
+    color: #ffffff;
+}
+
+nav a:focus {
+    text-decoration: underline;
+}
+< /style>
+< /head>
+< body>
+
+
+< nav>
+    < a href="#" class="active">Home< /a>
+    < a href="#">About< /a>
+    < a href="#">Services< /a>
+    < a href="#">Contact< /a>
+< /nav>
+< /body>
+< /html>
+                        </pre>
+                    </li> <br>
+                    <li>output: <br>
+                        <img src="pc.jpg" alt="Image not found" width="300">
+                    </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../common.css">
+</head>
+<body>
+	<h1 style="text-align:center">Forms</h1>
+	<h2> Creating a Form with the  < form >  Element </h2>
+	<ul>
+
+		<li> Almost every time you want to collect information from a visitor to your site, you need to use a form </li>
+		<li>  . The   < form >   element can also contain other markup, such as paragraphs, headings, and so on, although it may not contain another 
+  < form >element.</li>
+  	<li> Providing you keep your   < form >   elements separate from each other (and no   < form >   element contains another   < form >   element),</li>
+  	<li>page may contain as many forms as you like></li>
+  	<ul>
+  		<li> login form</li>
+  		<li> search form</li>
+  		<li>form to subscribe to a newsletter</li>
+  	</ul>
+  	<li><dl>
+  		<dt> Every   < form >   element should carry at least two attributes: </dt>
+  		<dd>action method </dd>
+  		<dt> A   < form >   element may also carry all of the universal attributes, the UI event attributes, and the following attributes:</dt>
+  		<dd>enctype accept accept-charset onsubmit onreset </dd>
+  	</dl></li>
+  	<li> The  id  attribute allows you to uniquely identify the   < form >   element within a page,</li>
+  	<li> the  name  attribute is the predecessor to the 
+ id  attribute, and as with the  id  attribute, </li>
+  	<li> The  target  attribute is usually used with the   < a >   element to indicate which frame or browser window the link should be loaded into. It can also be used with a form to indicate which frame or window the form results open in when the user has submitted a form (frames are covered in the next chapter)</li><br>
+  	<li>EXAMPLE FOR BASIC FORM:</li><br>
+  	<li><pre>
+  		< form method="post" action.process-form.php>
+  			< p>
+  			< label>NAME:< /label>
+  			< input type="text" name="name">< /p>
+  			< p>
+  			< label>PHONE NUMBER:< /label>
+  			< input type="number" name="pn">< /p>< br>
+  			< input type="submit" name="submit" value="send">
+  		< /form>	</pre>
+  	</li>
+  	<li>OUTPUT OF THE ABOVE PROGRAM IS:<br>
+  		<img src="cafwf.jpg" alt="image is not found">
+  	</li>
+	</ul>
+</body>
+</html>

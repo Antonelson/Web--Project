@@ -1,0 +1,10 @@
+.a1{
+    border: 5 px solid;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:10px;
+    background-color:#D3D3D3;
+    color:#00ADB5;
+}

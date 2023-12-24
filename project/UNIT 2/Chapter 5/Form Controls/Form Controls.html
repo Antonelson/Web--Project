@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../common.css">
+    
+</head>
+<body>
+	<h1>Form Controls</h1>
+	<ul>
+		<li>this section goes on to cover the different types of form controls that live inside the   < form >   element to collect data from a visitor to your site</li>
+		<ul type="square">
+			<li>Text input controls </li>
+			<li>Buttons   </li>
+			<li>Checkboxes and radio buttons </li>
+			<li> Select boxes (sometimes referred to as drop - down menus and list boxes)   </li>
+			<li> File select boxes </li>
+			<li>Hidden controls</li>
+		</ul>
+		<li> Text input boxes are used on many web pages. Possibly the most famous text input box is the one right in the middle of the Google homepage that allows you to enter what you are searching for.</li>
+			<ol>
+				<li>Single - line text input controls</li>
+				<li>Password input controls</li>
+				<li>Multi - line text input controls</li>
+			</ol>
+		<li> PASSWORD:If you want to collect sensitive data such as passwords and credit card information, you can use the password input</li>
+		<li>TEXTAREA:If you want to allow a visitor to your site to enter more than one line of text, you should create a multiple - line text input control using the   < textarea >   element. and attributes are
+		</li>
+		<ul type="circle">
+			<li>name</li>
+			<li>rows</li>
+			<li>cols</li>
+		</ul>
+		<li>BUTTON:If you want to allow a visitor to your site to enter more than one line of text, you should create a multiple - line text input control using the   < textarea >   element. </li>
+		<li>CHECKBOX: A drop - down select box allows users to select one item from a drop - down menu. Drop - down select boxes can take up far less space than a group of radio buttons. </li>
+		<li>RADIO: Radio buttons are similar to checkboxes in that they can be either on or off, but there are two key differences: </li>
+		<li>SELECTBOX: A drop - down select box allows users to select one item from a drop - down menu. Drop - down select boxes can take up far less space than a group of radio buttons. </li>
+		<li>HIDDEN: Sometimes you will want to pass information between pages without the user seeing it; to do this, you can use hidden form controls</li>
+		<li>EXAMPLE:
+			<pre>
+
+	< h1 style="color:red">< center>PERSONAL DETAILS< /center>< /h1>
+< form action="success.html" post="get">
+< p>
+	< label for="n">NAME:< /label>
+	< input type="text" name="name" id="n" placeholder="NAME">
+< /p>
+< p>
+	< label for="dob" >DATE OF BIRTH:< /label> 	
+	< input type="date" name="dob" id="dob">< br>< br>
+	< label for="age">AGE:< /label>
+	< input type="number" name="age" placeholder="AGE" min="0" max="100">
+< /p>
+< p>
+	< label>SEX:< /label><  br>
+	< input type="radio" name="sex" value="MALE" id="aa">< label for="aa">MALE< /label>< br>
+	< input type="radio" name="sex" value="FEMALE">FEMALE< br>
+	< input type="radio" name="sex" value="TG">TRANSGENDER< br>
+< /p>
+ < p>
+	< label for="ad">ADDRESS:< /label>
+	< input type="text" name="a dd" id="ad" placeholder="ADDRESS">< br>
+< /p>
+< p>
+	< label for="no">NUMBER:< /label>
+	< input type="tel" name="no" id="no" list="1">
+	< datalist id="1">
+		< option value="1234"><  /option>
+		< option value="4567"><  /option>
+	< /datalist>
+< /p>
+< p>
+	< label for="mail">MAIL ID:< /  label>
+	< input type="email" id="mail" name="mail">
+< /p>
+
+< label>COMMUNITY:< / label>< br>
+< select name="COMMUNITY">
+	< option value="" selected>NONE< /option>
+	 < option value="OBC">OBC< /option>
+	< option value="BC">BC< /option>
+	< option value="MBC">MBC< /option>
+	< option value="BCM">BCM< /option>
+	< option value="SC">SC< /option>
+< /select>
+< br>
+< br>
+< br>
+< label>Please select your catogory:< /label>< br>
+< select  name="category[]" multiple>
+< option value="NONE" selected>NONE< /option>
+< option value="1st graduate">1st graduate< /option>
+< option value="single girl child">single girl child< /option>
+< option value="single parent">single parent< /option>
+< option value="single child">single child< /option>
+< /select>< br>< br>
+
+< input type="button" onclick="alert('thank you')" value="click">
+< button type="button" onclick="alert('thank you')" value="click">hjh< /button>
+< br>
+< label>date and time:< /label>< br>
+< input type="datetime-local" name="dtl">< br>
+< /form>
+< /body>
+< /html> 
+</pre>
+</li>
+<li>OUTPUT OF THE ABOVE PROGRAM IS:
+	<img src="fc.jpg" alt="IMAGE IS NOT FOUND">
+</li>
+	</ul>
+
+</body>
+</html>

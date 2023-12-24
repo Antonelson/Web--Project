@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../common.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Audio and Video</h1>
+    <h2>Audio</h2>
+    <ul>
+        <li>To play an audio file in HTML, use the < audio > element.</li> <br>
+        <li>The controls attribute adds audio controls, like play, pause, and volume.</li> <br>
+        <li>The text between the < audio > and < /audio> tags will only be displayed in browsers that do not support the < audio > element.</li> <br>
+        <li>To start an audio file automatically, use the autoplay attribute.</li> <br>
+        <li>Add muted after autoplay to let your audio file start playing automatically (but muted).</li> <br>
+        <li>Eg:
+<pre>< !DOCTYPE html>
+< html>
+< head>
+< title>Links And Navigation< /title>
+< /head>
+< body>
+    < audio controls>
+        < source src="dog.mp3" type="audio/mp3">
+        Audio not supported / found.
+      < /audio>
+< /body>
+< /html></pre>
+        </li>
+        <li>Output: <br>
+            <img src="av2.jpg" alt="Image not found" width="300">
+        </li>
+    </ul>
+    <h2>Video</h2>
+    <ul>
+        <li>To show a video in HTML, use the < video > element.</li> <br>
+        <li>The controls attribute adds video controls, like play, pause, and volume.</li> <br>
+        <li>It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.</li> <br>
+        <li>The < source > element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.</li> <br>
+        <li>The text between the < video> and < /video> tags will only be displayed in browsers that do not support the < video> element.
+
+        </li> <br>
+        <li>To start a video automatically, use the autoplay attribute.</li> <br>
+        <li>Add muted after autoplay to let your video start playing automatically (but muted).</li> <br>
+        <li>Example:
+            <pre>
+< !DOCTYPE html>
+< html>
+< head>
+< title>Links And Navigation< /title>
+< /head>
+< body>
+< video width="400" controls>
+    < source src="video.mp4" type="video/mp4">
+    Video not supported / found.
+< /video>
+< /body>
+< /html>
+            </pre>
+        </li>
+        <li>Output: <br>
+            <img src="av1.jpg" alt="Image not found" width="300">
+        </li>
+    </ul>
+</body>
+</html>
