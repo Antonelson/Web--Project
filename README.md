@@ -1,4 +1,4 @@
-# Web Development Syllabus Project
+# Web Development Project
 
 This project aims to create a web page that represents the web development syllabus of our college. The implementation will be done using HTML and CSS.
 
